@@ -37,5 +37,5 @@ function onStopButtonClick() {
 }
 
 function changeBodyBgc() {
-  refs.bodyRef.style.backgroundColor = colors[randomIntegerFromInterval(0, 5)]
+  refs.bodyRef.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)]
 }
